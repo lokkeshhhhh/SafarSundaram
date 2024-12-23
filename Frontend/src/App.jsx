@@ -20,7 +20,7 @@ const App = () => {
                     <tr>
                         <th>Id</th>
                         <th>Name</th>
-                        <th>Email</th>
+                        <th>Price</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -28,7 +28,7 @@ const App = () => {
                         <tr key={post.id}>
                             <td>{post.id}</td>
                             <td>{post.name}</td>
-                            <td>{post.email}</td>
+                            <td>{post.price}</td>
                         </tr>
                     ))}
                 </tbody>
