@@ -7,7 +7,6 @@ const App = () => {
     useEffect(() => {
         axios.get('/user')
             .then(response => {
-                console.log(response.data.users);
                 setPosts(response.data.users);
             })
             .catch(error => console.error(error));
