@@ -2,10 +2,10 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Models\User;
+use App\Models\Product;
 
 Route::get('/user', function (Request $request) {
-    $users  = User::get();
+    $users  = Product::get();
 
     return response()->json([
         'message' => 'success',
