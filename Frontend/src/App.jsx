@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import axios from './axios'; // Import the axios instance
+import axios from './axios';
 
 const App = () => {
-    const [posts, setPosts] = useState([]); // State to store posts
+    const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        axios.get('/user') // API call to fetch posts
+        axios.get('/user')
             .then(response => {
-                console.log(response.data.users); // Log the response data
-                setPosts(response.data.users); // Update the state
+                console.log(response.data.users);
+                setPosts(response.data.users);
             })
-            .catch(error => console.error(error)); // Handle errors
-    }, []); // Empty dependency array to run only once on mount
+            .catch(error => console.error(error));
+    }, []);
 
     return (
         <div>
