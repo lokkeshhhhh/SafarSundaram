@@ -98,11 +98,10 @@ const Maincontent = () => {
   return (
     <>
       <div>
-        <header id="header" className="header d-flex align-items-center fixed-top">
-          <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
-            <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-              <img src="assets/img/logo.png" alt="" />
-              <h1 className="sitename">Bell</h1>
+        <header id="header" className="header fixed-top">
+          <div className="container-fluid header-div">
+            <a href="index.html" className="logo">
+              <img src="assets/img/logo/logo.png" alt="" />
             </a>
             <nav id="navmenu" className="navmenu">
               <ul>
@@ -132,12 +131,7 @@ const Maincontent = () => {
               </ul>
               <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
-            <div className="header-social-links">
-              <a href="#" className="twitter"><i className="bi bi-twitter-x"></i></a>
-              <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-              <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-              <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
-            </div>
+            {/* TODO: remove css for class 'header-social-links' */}
           </div>
         </header>
 
