@@ -100,13 +100,10 @@ const Maincontent = () => {
       <div>
         <header id="header" className="header d-flex align-items-center fixed-top">
           <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
-
             <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-              {/* Uncomment the line below if you also wish to use an image logo  */}
               <img src="assets/img/logo.png" alt="" />
               <h1 className="sitename">Bell</h1>
             </a>
-
             <nav id="navmenu" className="navmenu">
               <ul>
                 <li><a href="#hero" className="active">Home</a></li>
@@ -135,33 +132,26 @@ const Maincontent = () => {
               </ul>
               <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
-
             <div className="header-social-links">
               <a href="#" className="twitter"><i className="bi bi-twitter-x"></i></a>
               <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
               <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
               <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
             </div>
-
           </div>
         </header>
 
         <main className="main">
-
           {/* Hero Section  */}
           <section id="hero" className="hero section dark-background">
-
             <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
-
             <div className="container">
-
               <div className="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
                 <div className="col-xl-6 col-lg-8">
                   <h2>Powerful Digital Solutions For Your Business</h2>
                   <p>We are team of talented digital marketers</p>
                 </div>
               </div>
-
               <div className="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
                 <div className="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
                   <div className="icon-box">
@@ -194,17 +184,11 @@ const Maincontent = () => {
                   </div>
                 </div>
               </div>
-
             </div>
-
           </section>
-          {/* Hero Section  */}
-
           {/* About Section  */}
           <section id="about" className="about section">
-
             <div className="container">
-
               <div className="row gy-4" data-aos="fade-up" data-aos-delay="100">
                 <div className="col-lg-5">
                   <img src="assets/img/about.jpg" className="img-fluid" alt="" />
@@ -224,74 +208,50 @@ const Maincontent = () => {
                   </div>
                 </div>
               </div>
-
             </div>
-
           </section>
-          {/* About Section  */}
-
           {/* Stats Section  */}
           <section id="stats" className="stats section dark-background">
-
             <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in" />
-
             <div className="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
               <div className="row gy-4">
-
                 <div className="col-lg-3 col-md-6">
                   <div className="stats-item text-center w-100 h-100">
                     <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
                     <p>Clients</p>
                   </div>
                 </div>
-                {/* End Stats Item  */}
-
                 <div className="col-lg-3 col-md-6">
                   <div className="stats-item text-center w-100 h-100">
                     <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter"></span>
                     <p>Projects</p>
                   </div>
                 </div>
-                {/* End Stats Item  */}
-
                 <div className="col-lg-3 col-md-6">
                   <div className="stats-item text-center w-100 h-100">
                     <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" className="purecounter"></span>
                     <p>Hours Of Support</p>
                   </div>
                 </div>
-                {/* End Stats Item  */}
-
                 <div className="col-lg-3 col-md-6">
                   <div className="stats-item text-center w-100 h-100">
                     <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" className="purecounter"></span>
                     <p>Workers</p>
                   </div>
                 </div>
-                {/* End Stats Item  */}
-
               </div>
-
             </div>
-
           </section>
-          {/* Stats Section  */}
-
           {/* Featured Services Section  */}
           <section id="featured-services" className="featured-services section">
-
             {/* Section Title  */}
             <div className="container section-title" data-aos="fade-up">
               <h2>Featured Services</h2>
               <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             {/* End Section Title  */}
-
             <div className="container">
-
               <div className="row gy-4">
-
                 <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                   <div className="card-item">
                     <div className="row">
@@ -307,8 +267,6 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Card Item  */}
-
                 <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                   <div className="card-item">
                     <div className="row">
@@ -324,8 +282,6 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Card Item  */}
-
                 <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                   <div className="card-item">
                     <div className="row">
@@ -341,8 +297,6 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Card Item  */}
-
                 <div className="col-lg-6" data-aos="fade-up" data-aos-delay="400">
                   <div className="card-item">
                     <div className="row">
@@ -358,139 +312,98 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Card Item  */}
-
               </div>
-
             </div>
-
           </section>
-          {/* Featured Services Section  */}
-
           {/* Features Section  */}
           <section id="features" className="features section">
-
             <div className="container">
-
               <div className="row gy-4">
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
                   <div className="features-item">
                     <i className="bi bi-eye" style={{ color: "#ffbb2c" }}></i>
                     <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
                   <div className="features-item">
                     <i className="bi bi-infinity" style={{ color: "#5578ff" }}></i>
                     <h3><a href="" className="stretched-link">Dolor Sitema</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
                   <div className="features-item">
                     <i className="bi bi-mortarboard" style={{ color: "#e80368" }}></i>
                     <h3><a href="" className="stretched-link">Sed perspiciatis</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
                   <div className="features-item">
                     <i className="bi bi-nut" style={{ color: "#e361ff" }}></i>
                     <h3><a href="" className="stretched-link">Magni Dolores</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
                   <div className="features-item">
                     <i className="bi bi-shuffle" style={{ color: "#47aeff" }}></i>
                     <h3><a href="" className="stretched-link">Nemo Enim</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
                   <div className="features-item">
                     <i className="bi bi-star" style={{ color: "#ffa76e" }}></i>
                     <h3><a href="" className="stretched-link">Eiusmod Tempor</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
                   <div className="features-item">
                     <i className="bi bi-x-diamond" style={{ color: "#11dbcf" }}></i>
                     <h3><a href="" className="stretched-link">Midela Teren</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
                   <div className="features-item">
                     <i className="bi bi-camera-video" style={{ color: "#4233ff" }}></i>
                     <h3><a href="" className="stretched-link">Pira Neve</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
                   <div className="features-item">
                     <i className="bi bi-command" style={{ color: "#b2904f" }}></i>
                     <h3><a href="" className="stretched-link">Dirada Pack</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
                   <div className="features-item">
                     <i className="bi bi-dribbble" style={{ color: "#b20969" }}></i>
                     <h3><a href="" className="stretched-link">Moton Ideal</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
                   <div className="features-item">
                     <i className="bi bi-activity" style={{ color: "#ff5828" }}></i>
                     <h3><a href="" className="stretched-link">Verdo Park</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
                 <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
                   <div className="features-item">
                     <i className="bi bi-brightness-high" style={{ color: "#29cc61" }}></i>
                     <h3><a href="" className="stretched-link">Flavor Nivelanda</a></h3>
                   </div>
                 </div>
-                {/* End Feature Item  */}
-
               </div>
-
             </div>
-
           </section>
-          {/* Features Section  */}
-
           {/* Services Section  */}
           <section id="services" className="services section">
-
             {/* Section Title  */}
             <div className="container section-title" data-aos="fade-up">
               <h2>Services</h2>
               <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             {/* End Section Title  */}
-
             <div className="container">
-
               <div className="row gy-4">
-
                 <div className="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                   <div className="icon flex-shrink-0"><i className="bi bi-briefcase"></i></div>
                   <div>
@@ -498,8 +411,6 @@ const Maincontent = () => {
                     <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                   </div>
                 </div>
-                {/* End Service Item  */}
-
                 <div className="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
                   <div className="icon flex-shrink-0"><i className="bi bi-card-checklist"></i></div>
                   <div>
@@ -507,8 +418,6 @@ const Maincontent = () => {
                     <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
                   </div>
                 </div>
-                {/* End Service Item  */}
-
                 <div className="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
                   <div className="icon flex-shrink-0"><i className="bi bi-bar-chart"></i></div>
                   <div>
@@ -516,8 +425,6 @@ const Maincontent = () => {
                     <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
                   </div>
                 </div>
-                {/* End Service Item  */}
-
                 <div className="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
                   <div className="icon flex-shrink-0"><i className="bi bi-binoculars"></i></div>
                   <div>
@@ -525,8 +432,6 @@ const Maincontent = () => {
                     <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                   </div>
                 </div>
-                {/* End Service Item  */}
-
                 <div className="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
                   <div className="icon flex-shrink-0"><i className="bi bi-brightness-high"></i></div>
                   <div>
@@ -534,8 +439,6 @@ const Maincontent = () => {
                     <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                   </div>
                 </div>
-                {/* End Service Item  */}
-
                 <div className="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
                   <div className="icon flex-shrink-0"><i className="bi bi-calendar4-week"></i></div>
                   <div>
@@ -543,20 +446,12 @@ const Maincontent = () => {
                     <p className="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
                   </div>
                 </div>
-                {/* End Service Item  */}
-
               </div>
-
             </div>
-
           </section>
-          {/* Services Section  */}
-
           {/* Call To Action Section  */}
           <section id="call-to-action" className="call-to-action section dark-background">
-
             <img src="assets/img/cta-bg.jpg" alt="" />
-
             <div className="container">
               <div className="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
                 <div className="col-xl-10">
@@ -568,24 +463,17 @@ const Maincontent = () => {
                 </div>
               </div>
             </div>
-
           </section>
-          {/* Call To Action Section  */}
-
           {/* Portfolio Section  */}
           <section id="portfolio" className="portfolio section">
-
             {/* Section Title  */}
             <div className="container section-title" data-aos="fade-up">
               <h2>Portfolio</h2>
               <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             {/* End Section Title  */}
-
             <div className="container">
-
               <div className="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
                 <ul className="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                   <li data-filter="*" className="filter-active">All</li>
                   <li data-filter=".filter-app">App</li>
@@ -593,10 +481,7 @@ const Maincontent = () => {
                   <li data-filter=".filter-branding">Branding</li>
                   <li data-filter=".filter-books">Books</li>
                 </ul>
-                {/* End Portfolio Filters  */}
-
                 <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/app-1.jpg" className="img-fluid" alt="" />
@@ -608,8 +493,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/product-1.jpg" className="img-fluid" alt="" />
@@ -621,8 +504,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/branding-1.jpg" className="img-fluid" alt="" />
@@ -634,8 +515,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/books-1.jpg" className="img-fluid" alt="" />
@@ -647,8 +526,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/app-2.jpg" className="img-fluid" alt="" />
@@ -660,8 +537,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/product-2.jpg" className="img-fluid" alt="" />
@@ -673,8 +548,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/branding-2.jpg" className="img-fluid" alt="" />
@@ -686,8 +559,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/books-2.jpg" className="img-fluid" alt="" />
@@ -699,8 +570,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/app-3.jpg" className="img-fluid" alt="" />
@@ -712,8 +581,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/product-3.jpg" className="img-fluid" alt="" />
@@ -725,8 +592,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/branding-3.jpg" className="img-fluid" alt="" />
@@ -738,8 +603,6 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                   <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
                     <div className="portfolio-content h-100">
                       <img src="assets/img/portfolio/books-3.jpg" className="img-fluid" alt="" />
@@ -751,32 +614,20 @@ const Maincontent = () => {
                       </div>
                     </div>
                   </div>
-                  {/* End Portfolio Item  */}
-
                 </div>
-                {/* End Portfolio Container  */}
-
               </div>
-
             </div>
-
           </section>
-          {/* Portfolio Section  */}
-
           {/* Team Section  */}
           <section id="team" className="team section">
-
             {/* Section Title  */}
             <div className="container section-title" data-aos="fade-up">
               <h2>Team</h2>
               <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             {/* End Section Title  */}
-
             <div className="container">
-
               <div className="row gy-4">
-
                 <div className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                   <div className="member">
                     <img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" />
@@ -794,8 +645,6 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Team Member  */}
-
                 <div className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                   <div className="member">
                     <img src="assets/img/team/team-2.jpg" className="img-fluid" alt="" />
@@ -813,8 +662,6 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Team Member  */}
-
                 <div className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                   <div className="member">
                     <img src="assets/img/team/team-3.jpg" className="img-fluid" alt="" />
@@ -832,8 +679,6 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Team Member  */}
-
                 <div className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                   <div className="member">
                     <img src="assets/img/team/team-4.jpg" className="img-fluid" alt="" />
@@ -851,29 +696,19 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Team Member  */}
-
               </div>
-
             </div>
-
           </section>
-          {/* Team Section  */}
-
           {/* Pricing Section  */}
           <section id="pricing" className="pricing section">
-
             {/* Section Title  */}
             <div className="container section-title" data-aos="fade-up">
               <h2>Pricing</h2>
               <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             {/* End Section Title  */}
-
             <div className="container">
-
               <div className="row gy-3">
-
                 <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
                   <div className="pricing-item">
                     <h3>Free</h3>
@@ -890,8 +725,6 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Pricing Item */}
-
                 <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
                   <div className="pricing-item featured">
                     <h3>Business</h3>
@@ -908,8 +741,6 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Pricing Item */}
-
                 <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
                   <div className="pricing-item">
                     <h3>Developer</h3>
@@ -926,8 +757,6 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Pricing Item */}
-
                 <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
                   <div className="pricing-item">
                     <span className="advanced">Advanced</span>
@@ -945,29 +774,19 @@ const Maincontent = () => {
                     </div>
                   </div>
                 </div>
-                {/* End Pricing Item */}
-
               </div>
-
             </div>
-
           </section>
-          {/* Pricing Section */}
-
           {/* Contact Section */}
           <section id="contact" className="contact section">
-
             {/* Section Title */}
             <div className="container section-title" data-aos="fade-up">
               <h2>Contact</h2>
               <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             {/* End Section Title */}
-
             <div className="container" data-aos="fade-up" data-aos-delay="100">
-
               <div className="row gy-4" data-aos="fade-up" data-aos-delay="200">
-
                 <div className="col-lg-4">
                   <div className="info-item d-flex flex-column justify-content-center align-items-center">
                     <i className="bi bi-geo-alt"></i>
@@ -975,7 +794,6 @@ const Maincontent = () => {
                     <p>A108 Adam Street, New York, NY 535022</p>
                   </div>
                 </div>
-
                 <div className="col-lg-4">
                   <div className="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
                     <i className="bi bi-telephone"></i>
@@ -983,7 +801,6 @@ const Maincontent = () => {
                     <p>+1 5589 55488 55</p>
                   </div>
                 </div>
-
                 <div className="col-lg-4">
                   <div className="info-item d-flex flex-column justify-content-center align-items-center">
                     <i className="bi bi-envelope"></i>
@@ -991,49 +808,34 @@ const Maincontent = () => {
                     <p>info@example.com</p>
                   </div>
                 </div>
-
               </div>
-
               <form action="forms/contact.php" method="post" className="php-email-form" data-aos="fade-up" data-aos-delay="300">
                 <div className="row gy-4">
-
                   <div className="col-md-6">
                     <input type="text" name="name" className="form-control" placeholder="Your Name" required="" />
                   </div>
-
                   <div className="col-md-6 ">
                     <input type="email" className="form-control" name="email" placeholder="Your Email" required="" />
                   </div>
-
                   <div className="col-md-12">
                     <input type="text" className="form-control" name="subject" placeholder="Subject" required="" />
                   </div>
-
                   <div className="col-md-12">
                     <textarea className="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
                   </div>
-
                   <div className="col-md-12 text-center">
                     <div className="loading">Loading</div>
                     <div className="error-message"></div>
                     <div className="sent-message">Your message has been sent. Thank you!</div>
-
                     <button type="submit">Send Message</button>
                   </div>
-
                 </div>
               </form>
-              {/* End Contact Form  */}
-
             </div>
-
           </section>
-          {/* /Contact Section  */}
-
         </main>
 
         <footer id="footer" className="footer dark-background">
-
           <div className="container">
             <div className="row gy-3">
               <div className="col-lg-3 col-md-6 d-flex">
@@ -1044,9 +846,7 @@ const Maincontent = () => {
                   <p>New York, NY 535022</p>
                   <p></p>
                 </div>
-
               </div>
-
               <div className="col-lg-3 col-md-6 d-flex">
                 <i className="bi bi-telephone icon"></i>
                 <div>
@@ -1057,7 +857,6 @@ const Maincontent = () => {
                   </p>
                 </div>
               </div>
-
               <div className="col-lg-3 col-md-6 d-flex">
                 <i className="bi bi-clock icon"></i>
                 <div>
@@ -1068,7 +867,6 @@ const Maincontent = () => {
                   </p>
                 </div>
               </div>
-
               <div className="col-lg-3 col-md-6">
                 <h4>Follow Us</h4>
                 <div className="social-links d-flex">
@@ -1078,10 +876,8 @@ const Maincontent = () => {
                   <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
                 </div>
               </div>
-
             </div>
           </div>
-
           <div className="container copyright text-center mt-4">
             <p>© <span>Copyright</span> <strong className="px-1 sitename">Bell</strong> <span>All Rights Reserved</span></p>
             <div className="credits">
@@ -1092,13 +888,10 @@ const Maincontent = () => {
               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
-
         </footer>
-
-        Scroll Top
+        {/* Scroll Top */}
         <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
-
-        Preloader
+        {/* Preloader */}
         <div id="preloader"></div>
       </div>
     </>
