@@ -84,26 +84,24 @@ const Maincontent = () => {
       });
     };
 
-    window.addEventListener("load", () => {
+    aosInit();
+
+    window.addEventListener("scroll", () => {
       toggleScrolled();
       toggleScrollTop();
       aosInit();
       initSwiper();
     });
-
-    window.addEventListener("scroll", toggleScrolled);
-
   }, []); // Empty dependency array to run once after initial render
 
   return (
     <>
-      <div>
         <header id="header" className="header fixed-top">
-          <div className="container-fluid header-div">
-            <a href="index.html" className="logo">
+          <div className="container-fluid ps-5 pe-5">
+            <a href="index.html" className="logo float-start">
               <img src="assets/img/logo/logo.png" alt="" />
             </a>
-            <nav id="navmenu" className="navmenu">
+            <nav id="navmenu" className="navmenu float-end">
               <ul>
                 <li><a href="#hero" className="active">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -880,7 +878,6 @@ const Maincontent = () => {
         <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
         {/* Preloader */}
         <div id="preloader"></div>
-      </div>
     </>
   )
 }
