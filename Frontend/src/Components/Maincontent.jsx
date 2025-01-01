@@ -136,7 +136,7 @@ const Maincontent = () => {
         <main className="main">
           {/* Hero Section  */}
           <section id="hero" className="hero section dark-background">
-            <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
+            <img src="assets/img/banner/banner2.jpg" alt="" data-aos="fade-in" />
             <div className="container">
               <div className="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
                 <div className="col-xl-6 col-lg-8">
