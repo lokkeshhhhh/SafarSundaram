@@ -12,22 +12,6 @@ const Maincontent = () => {
       window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
     };
 
-    const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
-    const mobileNavToogle = () => {
-      document.body.classList.toggle('mobile-nav-active');
-      mobileNavToggleBtn.classList.toggle('bi-list');
-      mobileNavToggleBtn.classList.toggle('bi-x');
-    };
-
-    const navmenuLinks = document.querySelectorAll('.navmenu a');
-    navmenuLinks.forEach(navmenu => {
-      navmenu.addEventListener('click', () => {
-        if (document.querySelector('.mobile-nav-active')) {
-          mobileNavToogle();
-        }
-      });
-    });
-
     const preloader = document.querySelector('#preloader');
     if (preloader) {
       window.addEventListener('load', () => {
@@ -92,47 +76,10 @@ const Maincontent = () => {
       aosInit();
       initSwiper();
     });
-  }, []); // Empty dependency array to run once after initial render
+  }, []);
 
   return (
     <>
-        <header id="header" className="header fixed-top">
-          <div className="container-fluid ps-5 pe-5">
-            <a href="index.html" className="logo float-start">
-              <img src="assets/img/logo/logo.png" alt="" />
-            </a>
-            <nav id="navmenu" className="navmenu float-end">
-              <ul>
-                <li><a href="#hero" className="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#team">Team</a></li>
-                <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Dropdown 1</a></li>
-                    <li className="dropdown"><a href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-                      <ul>
-                        <li><a href="#">Deep Dropdown 1</a></li>
-                        <li><a href="#">Deep Dropdown 2</a></li>
-                        <li><a href="#">Deep Dropdown 3</a></li>
-                        <li><a href="#">Deep Dropdown 4</a></li>
-                        <li><a href="#">Deep Dropdown 5</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Dropdown 2</a></li>
-                    <li><a href="#">Dropdown 3</a></li>
-                    <li><a href="#">Dropdown 4</a></li>
-                  </ul>
-                </li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-              <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
-            {/* TODO: remove css for class 'header-social-links' */}
-          </div>
-        </header>
-
         <main className="main">
           {/* Hero Section  */}
           <section id="hero" className="hero section dark-background">
