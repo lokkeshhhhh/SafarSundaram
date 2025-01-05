@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Maincontent from "./Components/Main_Frontent/Maincontent";
 import Header from "./Components/Main_Frontent/Header";
 import Footer from "./Components/Main_Frontent/Footer";
+import Admin from "./Components/Admin_Panel/Admin";
 function App() {
     return (
         <Router basename="/safar-sundaram/">
@@ -15,7 +16,7 @@ function App() {
                         <Footer />
                     </>
                 } />
-                {/* <Route path="/services" element={<MainLayout><Services /></MainLayout>} /> */}
+                <Route path="/admin" element={<><Admin /></>} />
                 {/* <Route path="/about" element={<MainLayout><About /></MainLayout>} /> */}
                 {/* <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} /> */}
             </Routes>
