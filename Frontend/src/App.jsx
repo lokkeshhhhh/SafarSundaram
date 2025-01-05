@@ -17,7 +17,8 @@ function App() {
                         <Footer />
                     </>
                 } />
-                <Route path="/admin" element={<><Login /></>} />
+                <Route path="/login" element={<><Login /></>} />
+                <Route path="/dashboard" element={<><Admin /></>} />
                 {/* <Route path="/about" element={<MainLayout><About /></MainLayout>} /> */}
                 {/* <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} /> */}
             </Routes>
