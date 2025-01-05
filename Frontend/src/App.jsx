@@ -1,16 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Maincontent from "./Body/Main_Frontent/Maincontent";
-import Header from "./Body/Main_Frontent/Header";
-import Footer from "./Body/Main_Frontent/Footer";
+import Maincontent from "./Components/Main_Frontent/Maincontent";
+import Header from "./Components/Main_Frontent/Header";
+import Footer from "./Components/Main_Frontent/Footer";
 function App() {
     return (
-        // <>
-        //     <Header />
-        //     <Maincontent />
-        //     <Footer />
-        // </>
-
         <Router basename="/safar-sundaram/">
             <Routes>
                 {/* Main Website Routes */}
