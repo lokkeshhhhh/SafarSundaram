@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Maincontent from "./Components/Main_Frontent/Maincontent";
-import Header from "./Components/Main_Frontent/Header";
-import Footer from "./Components/Main_Frontent/Footer";
+import Maincontent from "./Components/Main_Frontend/Maincontent";
+import Header from "./Components/Main_Frontend/Header";
+import Footer from "./Components/Main_Frontend/Footer";
 import Admin from "./Components/Admin_Panel/Admin";
 function App() {
     return (
