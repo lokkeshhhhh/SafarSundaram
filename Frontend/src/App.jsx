@@ -11,7 +11,7 @@ function App() {
         //     <Footer />
         // </>
 
-        <Router basename="/SafarSundaram">
+        <Router basename="/safar-sundaram/">
             <Routes>
                 {/* Main Website Routes */}
                 <Route path="/" element={
