@@ -4,6 +4,7 @@ import Maincontent from "./Components/Main_Frontend/Maincontent";
 import Header from "./Components/Main_Frontend/Header";
 import Footer from "./Components/Main_Frontend/Footer";
 import Admin from "./Components/Admin_Panel/Admin";
+import Login from "./Components/Admin_Panel/Login";
 function App() {
     return (
         <Router basename="/safar-sundaram/">
@@ -16,7 +17,7 @@ function App() {
                         <Footer />
                     </>
                 } />
-                <Route path="/admin" element={<><Admin /></>} />
+                <Route path="/admin" element={<><Login /></>} />
                 {/* <Route path="/about" element={<MainLayout><About /></MainLayout>} /> */}
                 {/* <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} /> */}
             </Routes>
