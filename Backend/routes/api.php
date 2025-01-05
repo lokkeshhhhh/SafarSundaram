@@ -4,15 +4,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\Product;
 
-Route::get('/user', function (Request $request) {
-    $users  = Product::get();
-
-    return response()->json([
-        'message' => 'success',
-        'users' => $users
-    ],200);
-});
-
 Route::post('/login', function (Request $request) {
     $cradentials  = $request->only('email', 'password');
 
