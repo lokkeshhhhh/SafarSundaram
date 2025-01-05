@@ -87,8 +87,8 @@ const Maincontent = () => {
             <div className="container">
               <div className="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
                 <div className="col-xl-6 col-lg-8">
-                  <h2>Powerful Digital Solutions For Your Business</h2>
-                  <p>We are team of talented digital marketers</p>
+                  <h2>Dhara Dharohar Anvesh</h2>
+                  <p>Discover the Splendors of Rajasthan</p>
                 </div>
               </div>
               <div className="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
